@@ -17,7 +17,7 @@ def set_page_config():
     st.set_page_config(
         page_title = "SG Primary School Explorer",
         page_icon = "🇸🇬",
-        #layout = "wide",
+        layout = "wide",
         initial_sidebar_state = "expanded",
         menu_items = None,
     )
