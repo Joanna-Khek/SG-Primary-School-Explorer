@@ -207,9 +207,9 @@ def phase1_sub_rate(df_school_full):
         width=1200,
         height=5000)
     fig.update_traces(hovertemplate = "%{value} <br>Total Phase Vacancy: %{customdata[0]}")
-
     fig.update_layout(legend_title="Legend",
                     yaxis={'categoryorder':'category descending'})
+    fig.update_layout(showlegend=False)
     fig.update_traces(textposition='inside', textfont_color='white')
     newnames = {'Phase1_applied':'Subscribed', 'Phase2A_vac': 'Remaining Vacancy'}
     fig.for_each_trace(lambda t: t.update(name = newnames[t.name]))
@@ -238,6 +238,8 @@ def phase2A_sub_rate(df_school_full):
 
     fig.update_layout(legend_title="Legend",
                     yaxis={'categoryorder':'category descending'})
+    fig.update_layout(showlegend=False)
+
     fig.update_traces(textposition='inside', textfont_color='white')
     newnames = {'Phase2A_applied':'Subscribed', 'After_Phase1_2A_vac': 'Remaining Vacancy'}
     fig.for_each_trace(lambda t: t.update(name = newnames[t.name]))
@@ -289,6 +291,8 @@ def phase2B_sub_rate(df_school_full):
 
     fig.update_layout(legend_title="Legend",
                     yaxis={'categoryorder':'category descending'})
+    fig.update_layout(showlegend=False)
+
     fig.update_traces(textposition='inside', textfont_color='white')
     newnames = {'Phase2B_applied':'Subscribed', 'After_Phase2B_vac': 'Remaining Vacancy'}
     fig.for_each_trace(lambda t: t.update(name = newnames[t.name]))
@@ -340,6 +344,8 @@ def phase2C_sub_rate(df_school_full):
 
     fig.update_layout(legend_title="Legend",
                     yaxis={'categoryorder':'category descending'})
+    fig.update_layout(showlegend=False)
+    
     fig.update_traces(textposition='inside', textfont_color='white')
     newnames = {'Phase2C_applied':'Subscribed', 'After_Phase2C_vac': 'Remaining Vacancy'}
     fig.for_each_trace(lambda t: t.update(name = newnames[t.name]))
