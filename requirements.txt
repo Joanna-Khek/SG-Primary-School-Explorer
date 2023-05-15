@@ -2,4 +2,4 @@ pandas
 streamlit
 streamlit-aggrid
 plotly
-yaml
+pyyaml
