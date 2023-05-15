@@ -46,13 +46,12 @@ def local_css(css_file):
         st.markdown('<style>{}</style>'.format(f.read()), unsafe_allow_html=True)
 
 def set_local_css():
-    curdir = os.path.dirname(os.path.realpath('About.py')) + r'\\'
-    css_file = os.path.join(curdir, 'stylesheet/style.css')
+    css_file = './stylesheet/style.css'
     local_css(css_file)
 
 
 def display_main_logo() -> None:
-    logo = Image.open("static/logo.png")
+    logo = Image.open("./static/logo.png")
     st.image(logo)
 
 
