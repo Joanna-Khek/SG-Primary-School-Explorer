@@ -15,7 +15,7 @@ import seaborn as sns
 import plotly.graph_objects as go
 import plotly.express as px
 
-from utils import read_data, read_cca_points
+from src.utils import read_data, read_cca_points
 
 def set_page_config():
     st.set_page_config(
@@ -51,12 +51,12 @@ def local_css(css_file):
 
 def set_local_css():
     curdir = os.path.dirname(os.path.realpath('About.py')) + r'\\'
-    css_file = os.path.join(curdir, '../stylesheet/style.css')
+    css_file = os.path.join(curdir, './stylesheet/style.css')
     local_css(css_file)
 
 
 def display_main_logo() -> None:
-    logo = Image.open("../static/logo.png")
+    logo = Image.open("./static/logo.png")
     st.image(logo)
 
 

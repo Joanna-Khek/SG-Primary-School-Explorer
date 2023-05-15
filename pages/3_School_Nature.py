@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
-from ui import plot_overview_sankey
-from ui import set_local_css, set_page_config
+from src.ui import plot_overview_sankey
+from src.ui import set_local_css, set_page_config
 
 set_page_config()
 set_local_css()

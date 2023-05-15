@@ -1,13 +1,13 @@
 import streamlit as st
 import pandas as pd
-from ui import plot_cca_by_school_type
-from ui import plot_cca_by_school_nature
-from utils import read_data, read_cca_points
-from ui import set_local_css, set_page_config
-from ui import show_school_with_cca
-from ui import show_most_common_cca
-from ui import show_most_unique_cca
-from ui import show_all_cca
+from src.ui import plot_cca_by_school_type
+from src.ui import plot_cca_by_school_nature
+from src.utils import read_data, read_cca_points
+from src.ui import set_local_css, set_page_config
+from src.ui import show_school_with_cca
+from src.ui import show_most_common_cca
+from src.ui import show_most_unique_cca
+from src.ui import show_all_cca
 
 set_page_config()
 set_local_css()

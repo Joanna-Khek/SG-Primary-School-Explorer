@@ -1,9 +1,9 @@
 import streamlit as st
 import pandas as pd
-from ui import set_page_config
-from ui import set_page_container_style
-from ui import set_local_css
-from ui import display_main_logo
+from src.ui import set_page_config
+from src.ui import set_page_container_style
+from src.ui import set_local_css
+from src.ui import display_main_logo
 
 if __name__ == "__main__":
 

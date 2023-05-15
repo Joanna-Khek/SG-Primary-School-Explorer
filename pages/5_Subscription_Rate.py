@@ -1,8 +1,8 @@
 import streamlit as st
 import pandas as pd
-from utils import read_data
-from ui import phase1_sub_rate, phase2A_sub_rate, phase2B_sub_rate, phase2C_sub_rate
-from ui import set_local_css, set_page_config
+from src.utils import read_data
+from src.ui import phase1_sub_rate, phase2A_sub_rate, phase2B_sub_rate, phase2C_sub_rate
+from src.ui import set_local_css, set_page_config
 
 set_page_config()
 set_local_css()

@@ -1,6 +1,6 @@
 import pandas as pd 
 from pathlib import Path
-from configs import config
+from src.configs import config
 
 
 def read_data():
