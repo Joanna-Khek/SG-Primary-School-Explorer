@@ -1,0 +1,10 @@
+div[data-testid="stExpander"] div[role="button"] p {
+    font-size: 1rem;
+    color: #FF6900
+}
+
+
+div[class="ReactVirtualized__Grid table-bottom-left"] div,
+div[class="ReactVirtualized__Grid table-top-right"] div {
+    color: red;
+}

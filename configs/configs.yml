@@ -1,0 +1,9 @@
+raw_dir: ".././data/raw/"
+processed_dir: ".././data/processed/"
+reference_dir: ".././data/reference/"
+
+cca_data: "clean-cca-data.csv"
+school_data: "clean-school-details.csv"
+vacancy_data: "clean-vacancy-data.csv"
+school_cca_points: "full-school-cca-points.csv"
+cca_points: "cca-points.csv"
