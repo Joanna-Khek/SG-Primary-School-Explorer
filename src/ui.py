@@ -17,7 +17,7 @@ def set_page_config():
     st.set_page_config(
         page_title = "SG Primary School Explorer",
         page_icon = "🇸🇬",
-        layout = "wide",
+        #layout = "wide",
         initial_sidebar_state = "expanded",
         menu_items = None,
     )
@@ -345,7 +345,7 @@ def phase2C_sub_rate(df_school_full):
     fig.update_layout(legend_title="Legend",
                     yaxis={'categoryorder':'category descending'})
     fig.update_layout(showlegend=False)
-    
+
     fig.update_traces(textposition='inside', textfont_color='white')
     newnames = {'Phase2C_applied':'Subscribed', 'After_Phase2C_vac': 'Remaining Vacancy'}
     fig.for_each_trace(lambda t: t.update(name = newnames[t.name]))
