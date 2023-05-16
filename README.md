@@ -19,7 +19,7 @@ Build the docker image
 Run the docker image    
 ```docker run -p 8501:8501 pri-school-app:latest```
 
-View the web app here     
+View the web app using this url    
 ```http://localhost:8501/```
 
 
