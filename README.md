@@ -9,6 +9,20 @@ Choosing a primary school for your child can be a daunting task.
 
 In an attempt to answer all those questions, I have created a web application to assist parents in selecting a primary school for their children.
 
+# Running docker container
+Clone the repository     
+```git clone https://github.com/Joanna-Khek/SG-Primary-School-Explorer```   
+
+Build the docker image    
+```docker build -t pri-school-app:latest .```   
+
+Run the docker image    
+```docker run -p 8501:8501 pri-school-app:latest```
+
+View the web app here     
+```http://localhost:8501/```
+
+
 # Project Demo
 There are four main sections to the web application.
 * **1. School Type** - Compare between Government School, Government-Aided School and Government-Aided/ Autonomous School
@@ -51,10 +65,5 @@ Explore schools with highest CCA points by School Type and School Nature
 Analyse your chances of successfully enrolling at each phase
 
 ![Subscription](https://github.com/Joanna-Khek/SG-Primary-School-Explorer/assets/53141849/f7e98208-f8dc-413f-942e-b2fda88e9588)
-
-
-
-
-
 
 
