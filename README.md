@@ -1,4 +1,7 @@
 # :school: Singapore Primary School Explorer
+
+![2](https://github.com/Joanna-Khek/SG-Primary-School-Explorer/assets/53141849/9d95017d-5521-4f1e-beb0-48913c2ba88d)
+
 Access the web application [here](https://joanna-khek-sg-primary-school-explorer-about-ihz5yn.streamlit.app/)
 # Project Description
 Choosing a primary school for your child can be a daunting task.
