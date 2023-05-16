@@ -37,36 +37,37 @@ There are four main sections to the web application.
 
 Compare between **Government School**, **Government-Aided School** and **Government-Aided/ Autonomous School**, to see their distribution in terms of GEP and Affiliations programmes
 
-![School_Type](https://github.com/Joanna-Khek/SG-Primary-School-Explorer/assets/53141849/571d7d95-e920-46c7-9920-d683caf9f2e5)
+![School-Type](https://github.com/Joanna-Khek/SG-Primary-School-Explorer/assets/53141849/6d1b31f1-4aae-4c0b-a85d-db3cc0fb12d4)
 
 
 ## 2. School Nature
 
 Compare between **Co-Ed**, **Boys School** and **Girls School**, to see their distribution in terms of GEP and Affiliations programmes
 
-![School_Nature](https://github.com/Joanna-Khek/SG-Primary-School-Explorer/assets/53141849/b02061e0-a074-4e0b-b6a8-8097ed471307)
+![School-Nature](https://github.com/Joanna-Khek/SG-Primary-School-Explorer/assets/53141849/3016a15f-17ed-475a-9802-acea7275cc76)
 
 
 ## 3. CCA
 
 Find schools offering a particular CCA
 
-![CCA_1](https://github.com/Joanna-Khek/SG-Primary-School-Explorer/assets/53141849/fb04275b-22a9-42bf-8abc-07689ecbe54e)
+![CCA-1](https://github.com/Joanna-Khek/SG-Primary-School-Explorer/assets/53141849/642f3729-4461-4c85-adf8-b5c501d1eb3e)
 
 Explore most unique and common CCAs
 
-![CCA_2](https://github.com/Joanna-Khek/SG-Primary-School-Explorer/assets/53141849/4fe537fe-46ab-43fa-ab92-8f73356302f2)
+![CCA-2](https://github.com/Joanna-Khek/SG-Primary-School-Explorer/assets/53141849/6fdf2c74-60c9-4526-be1b-2d8b851d51d1)
+
 
 Explore schools with highest CCA points by School Type and School Nature
-
-![CCA_3](https://github.com/Joanna-Khek/SG-Primary-School-Explorer/assets/53141849/6ad9f5b9-708a-4e3b-8747-829e4ec77d04)
-![CCA_4](https://github.com/Joanna-Khek/SG-Primary-School-Explorer/assets/53141849/eb7e0d56-6ce7-49db-9bd1-14745f66be12)
+![CCA-3](https://github.com/Joanna-Khek/SG-Primary-School-Explorer/assets/53141849/9dc6eb7d-683d-4a15-85af-beb9781bebe5)
+![CCA-4](https://github.com/Joanna-Khek/SG-Primary-School-Explorer/assets/53141849/60d62d41-e81e-4cf7-9305-c8a44cb5aa82)
 
 
 ## 4. Subscription Rate
 
 Analyse your chances of successfully enrolling at each phase
 
-![Subscription](https://github.com/Joanna-Khek/SG-Primary-School-Explorer/assets/53141849/f7e98208-f8dc-413f-942e-b2fda88e9588)
+![Subscription](https://github.com/Joanna-Khek/SG-Primary-School-Explorer/assets/53141849/39e1fee9-1e6f-46cd-8548-7424e0687377)
+
 
 
