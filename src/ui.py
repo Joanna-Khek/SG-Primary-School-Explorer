@@ -172,6 +172,7 @@ def show_most_common_cca(df_cca_points):
     output = (df_cca_points
               .sort_values(by=['Count'], ascending=False)
               .head(20)
+              .loc[:,['CCA']]
     )
     return AgGrid(output, fit_columns_on_grid_load=True)
 
@@ -179,6 +180,7 @@ def show_most_unique_cca(df_cca_points):
     output = (df_cca_points
               .sort_values(by=['Count'], ascending=True)
               .head(20)
+              .loc[:,['CCA']]
     )
     return AgGrid(output, fit_columns_on_grid_load=True)
 
